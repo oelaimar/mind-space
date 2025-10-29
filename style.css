@@ -9,6 +9,9 @@ nav{
     padding: 10px;
     margin: 0 20px
 }
+.minize{
+    display: none;
+}
 .nav-btn{
     display:flex;
     gap:1em;
@@ -76,4 +79,21 @@ nav{
 .check{
     /* list-style:; */
      font-size: 20px;   
+}
+
+@media (max-width:900px){
+    .hero-container{
+        flex-direction: column;
+    }
+    #btns{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .minize{
+        display: block;
+    }
 }
