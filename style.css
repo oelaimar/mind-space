@@ -12,6 +12,7 @@ nav{
 .nav-btn{
     display:flex;
     gap:1em;
+    align-items: center;
 }
 
 .navigation{
@@ -21,10 +22,58 @@ nav{
     gap:1em;
 }
 
-.cta-btn{
+.btn{   
+    border-radius: 15px;
+    padding:0 15px;
+    height: 40px;
+}
+.cta{
     color:white;
     background-color: #FF5A1F;
     border: none;
-    border-radius: 15px;
-    padding:0 15px
+}
+.cta:hover{
+    color:#1E2A78;
+    border: 1px solid #1E2A78;
+    background-color: white;
+}
+.about{
+    color:#1E2A78;
+    border: 1px solid #1E2A78;
+}
+.about:hover{
+    color:white;
+    background-color: #FF5A1F;
+    border: none;
+}
+
+#logo{
+    font-size: 25px;
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    margin: 30px 19px;
+}
+#hero-heading{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.mini-logo{
+    font-size: 15px;
+}
+
+.headline{
+    font-size: 4em;
+    color:#1E2A78;
+    margin: 10px;
+}
+
+.check{
+    /* list-style:; */
+     font-size: 20px;   
 }
