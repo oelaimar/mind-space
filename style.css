@@ -76,11 +76,20 @@ nav{
     margin: 10px;
 }
 
-.check{
-    /* list-style:; */
-     font-size: 20px;   
+.principal-img{
+    position: relative;
+    width: fit-content;
 }
-
+.secound-img{
+    position: absolute;
+    width: fit-content;
+    z-index: 1;
+    right: 250px;
+    top: 100px;
+}
+#hero-img{
+    position: relative;
+}
 @media (max-width:900px){
     .hero-container{
         flex-direction: column;
